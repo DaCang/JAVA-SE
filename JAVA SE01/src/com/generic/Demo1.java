@@ -2,7 +2,7 @@ package com.generic;
 
 /*
  * 
- *  ·ºĞÍ
+ *  æ³›å‹
  * 
  */
 import java.util.ArrayList;
@@ -20,7 +20,9 @@ public class Demo1 {
 	@Test
 	public void test1() {
 		List<String> list = new ArrayList<String>();
-		list.add("aaaa");
+		list.add("aaaa");//åªèƒ½æ˜¯Stringç±»å‹çš„ï¼Œå¦åˆ™ä¼šå‡ºé”™
+		//list.add(1);
+		//The method add(int, String) in the type List<String> is not applicable for the arguments (int)
 		String str = list.get(0);
 		System.out.println(str);
 
@@ -35,9 +37,9 @@ public class Demo1 {
 
 	}
 
-	// ´«Í³·½Ê½
+	// ä¼ ç»Ÿæ–¹å¼
 	@Test
-	public void test3() {// ·ºĞÍ
+	public void test3() {// æ³›å‹
 		List<String> list = new ArrayList<String>();
 		list.add("aa");
 		list.add("bb");
@@ -51,9 +53,9 @@ public class Demo1 {
 
 	}
 
-	// ÔöÇ¿forÑ­»·£¨list£©
+	// å¢å¼ºforå¾ªç¯ï¼ˆlistï¼‰
 	@Test
-	public void test4() {// ·ºĞÍ
+	public void test4() {// æ³›å‹
 		List<String> list = new ArrayList<String>();
 		list.add("aa");
 		list.add("bb");
@@ -65,18 +67,18 @@ public class Demo1 {
 
 	}
 
-	// Map¼¯ºÏµÄ·ºĞÍ±íÊ¾
+	// Mapé›†åˆçš„æ³›å‹è¡¨ç¤º
 	@Test
-	public void test5() {// ·ºĞÍ
+	public void test5() {// æ³›å‹
 		Map<Integer, String> map = new LinkedHashMap<Integer, String>();
-		// Map ½«¼üÓ³Éäµ½ÖµµÄ¶ÔÏó¡£Ò»¸öÓ³Éä²»ÄÜ°üº¬ÖØ¸´µÄ¼ü£»Ã¿¸ö¼ü×î¶àÖ»ÄÜÓ³ÉäÒ»¸öÖµ
+		// Map å°†é”®æ˜ å°„åˆ°å€¼çš„å¯¹è±¡ã€‚ä¸€ä¸ªæ˜ å°„ä¸èƒ½åŒ…å«é‡å¤çš„é”®ï¼›æ¯ä¸ªé”®æœ€å¤šåªèƒ½æ˜ å°„ä¸€ä¸ªå€¼
 		map.put(1, "aaa");
 		map.put(2, "bbb");
 		map.put(3, "ccc");
 
 		Set<Map.Entry<Integer, String>> set = map.entrySet();
-		Iterator<Entry<Integer, String>> it = set.iterator();// ¶Ô¼¯ºÏ½øĞĞµü´úµÄµü´úÆ÷¡£
-		while (it.hasNext()) {// boolean hasNext() Èç¹ûÈÔÓĞÔªËØ¿ÉÒÔµü´ú£¬Ôò·µ»Ø true
+		Iterator<Entry<Integer, String>> it = set.iterator();// å¯¹é›†åˆè¿›è¡Œè¿­ä»£çš„è¿­ä»£å™¨ã€‚
+		while (it.hasNext()) {// boolean hasNext() å¦‚æœä»æœ‰å…ƒç´ å¯ä»¥è¿­ä»£ï¼Œåˆ™è¿”å› true
 			Map.Entry<Integer, String> entry = it.next();
 			int key = entry.getKey();
 			String value = entry.getValue();
@@ -84,11 +86,11 @@ public class Demo1 {
 		}
 	}
 
-	// ÔöÇ¿forÑ­»·(Map)
+	// å¢å¼ºforå¾ªç¯(Map)
 	@Test
-	public void test6() {// ·ºĞÍ
+	public void test6() {// æ³›å‹
 		Map<Integer, String> map = new LinkedHashMap<Integer, String>();
-		// Map ½«¼üÓ³Éäµ½ÖµµÄ¶ÔÏó¡£Ò»¸öÓ³Éä²»ÄÜ°üº¬ÖØ¸´µÄ¼ü£»Ã¿¸ö¼ü×î¶àÖ»ÄÜÓ³ÉäÒ»¸öÖµ
+		// Map å°†é”®æ˜ å°„åˆ°å€¼çš„å¯¹è±¡ã€‚ä¸€ä¸ªæ˜ å°„ä¸èƒ½åŒ…å«é‡å¤çš„é”®ï¼›æ¯ä¸ªé”®æœ€å¤šåªèƒ½æ˜ å°„ä¸€ä¸ªå€¼
 		map.put(1, "aaa");
 		map.put(2, "bbb");
 		map.put(3, "ccc");
