@@ -12,7 +12,7 @@ public class Swap {
 
 }
 
-class SwapTest<T> {// ·ºĞÍÀà
+class SwapTest<T> {// è‡ªå®šä¹‰çš„æ³›å‹ç±»
 	T arr[];
 
 	public T[] getArr() {
@@ -23,11 +23,11 @@ class SwapTest<T> {// ·ºĞÍÀà
 		this.arr = arr;
 	}
 
-	// µ¹ĞòÊä³ö
+	// å€’åºè¾“å‡º
 	void swaptest() {
 		int start = 0;
 		int end = arr.length - 1;
-		System.out.print("×ªÇ°£º");
+		System.out.print("è½¬å‰ï¼š");
 		for (T i : arr) {
 			System.out.print("\t");
 			System.out.print(i);
@@ -46,7 +46,7 @@ class SwapTest<T> {// ·ºĞÍÀà
 
 		}
 		System.out.println();
-		System.out.print("×ªºó£º");
+		System.out.print("è½¬åï¼š");
 		for (T i : arr) {
 			System.out.print("\t");
 			System.out.print(i);
