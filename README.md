@@ -20,3 +20,15 @@
 	  }
 	  System.out.println();
 	}
+
+###3.[自定义泛型类](https://github.com/DaCang/JAVA-SE/blob/master/JAVA%20SE01/src/com/generic/Swap.java)
+	class SwapTest<T> {// 泛型类
+	  T arr[];
+
+	  public T[] getArr() {
+		return arr;
+	  }
+
+	  public void setArr(T[] arr) {
+		this.arr = arr;
+	  }
