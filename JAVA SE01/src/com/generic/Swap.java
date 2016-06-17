@@ -4,15 +4,21 @@ public class Swap {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		SwapTest<String> st = new SwapTest<String>();
+		SwapTest<String> st1 = new SwapTest<String>();
+		SwapTest<Integer> st2 = new SwapTest<Integer>();
+		
 		String a[] = { "s", "d", "f", "g" };
-		st.setArr(a);
-		st.swaptest();
+		Integer b[] = { 1, 2, 3, 4 };
+		
+		st1.setArr(a);
+		st1.swaptest();
+		st2.setArr(b);
+		st2.swaptest();
 	}
 
 }
 
-class SwapTest<T> {// 自定义的泛型类
+class SwapTest<T> {// 泛型类
 	T arr[];
 
 	public T[] getArr() {
@@ -51,5 +57,6 @@ class SwapTest<T> {// 自定义的泛型类
 			System.out.print("\t");
 			System.out.print(i);
 		}
+		System.out.println();
 	}
 }
