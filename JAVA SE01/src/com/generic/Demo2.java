@@ -1,6 +1,6 @@
 package com.generic;
 
-//自定义带有泛型的方法
+//鑷畾涔夊甫鏈夋硾鍨嬬殑鏂规硶
 public class Demo2 {
 	public <T> T a(T t) {
 		return null;
