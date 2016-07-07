@@ -2,7 +2,7 @@ package com.songyl.test;
 
 /**
  * @author Administrator
- * Íş·¢ÃæÊÔÌâ2
+ * ä¼ å€¼
  */
 public class Test2 {
 	public static void change(String str) {
