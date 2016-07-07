@@ -2,7 +2,7 @@ package com.songyl.test;
 
 /**
  * @author Administrator
- * Íş·¢ÃæÊÔÌâ3
+ * for å¾ªç¯
  */
 public class Test4 {
 	public static boolean foo(char C) {
