@@ -4,13 +4,13 @@ import javax.swing.JOptionPane;
 
 /**
  * @author Administrator
- * Ê¹ÓÃÊäÈë¶Ô»°¿ò
+ * ä½¿ç”¨è¾“å…¥å¯¹è¯æ¡†
  */
 public class Test6 {
 public static void main(String[] args) {
-	  String name  =JOptionPane.showInputDialog("ĞÕÃû?");
-	  String input  =JOptionPane.showInputDialog("ÄêÁä?");
+	  String name  =JOptionPane.showInputDialog("å§“å?");
+	  String input  =JOptionPane.showInputDialog("å¹´é¾„?");
 	  Integer age=Integer.parseInt(input);
 	  System.out.println("name:"+name+",age:"+age);
-}
+   }
 }
