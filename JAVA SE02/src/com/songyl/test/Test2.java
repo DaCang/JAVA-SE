@@ -15,5 +15,4 @@ public class Test2 {
 		change(str);
 		System.out.println(str);
 	}
-
 }
