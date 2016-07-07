@@ -2,7 +2,7 @@ package com.songyl.test;
 
 /**
  * @author Administrator
- *  µÚÒ»Ìõ£º¾²Ì¬¹¤³§·½·¨´úÌæ¹¹ÔìÆ÷
+ *  ç¬¬ä¸€æ¡ï¼šé™æ€å·¥å‚æ–¹æ³•ä»£æ›¿æ„é€ å™¨
  */
 public class Test3 {
 	public static void main(String[] args) {
@@ -28,13 +28,11 @@ public class Test3 {
 		System.out.println(b1==b2);//false
 		System.out.println(b1.equals(b2));//true
 		
-		
 		//String $bills;
-		//ÕâÖÖ±êÊ¶·ûÊÇÕıÈ·µÄ
+		//è¿™ç§æ ‡è¯†ç¬¦æ˜¯æ­£ç¡®çš„
 		//int 1234;
 		//invalid VariableDeclarator
 		
 
 	}
-
 }
