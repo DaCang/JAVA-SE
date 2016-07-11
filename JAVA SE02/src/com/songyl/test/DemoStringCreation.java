@@ -22,8 +22,8 @@ public class DemoStringCreation {
 		String str8 = "He" + "llo";
 		System.out.println("str7 is computed at runtime.");
 		System.out.println("str8 is created by using string constant expression.");
-		System.out.println("    str7 == str8 is " + (str7 == str8));
-		System.out.println("    str7.equals(str8) is " + str7.equals(str8));
+		System.out.println("    str7 == str8 is " + (str7 == str8));//false
+		System.out.println("    str7.equals(str8) is " + str7.equals(str8));//true
 	}
 
 }
